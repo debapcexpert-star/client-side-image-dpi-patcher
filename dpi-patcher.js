@@ -1,4 +1,3 @@
-```javascript
 /**
  * Injects or updates the JFIF APP0 marker to set the exact DPI of a JPEG image.
  * 
@@ -59,6 +58,7 @@ function patchJfifDpi(binary, dpi) {
 
   return output;
 }
+
 
 // Usage with HTML5 Canvas / Blob:
 // Convert Canvas blob to Uint8Array, patch DPI, and create download Blob
